@@ -11,12 +11,7 @@
 #import "PSMTabStyle.h"
 #import "PSMProgressIndicator.h"
 #import "PSMTabDragAssistant.h"
-
-@interface PSMTabBarControl (Private)
-
-- (void)update;
-
-@end
+#import "PSMTabBarControl_private.h"
 
 @interface PSMTabBarCell (/*Private*/)
 
@@ -650,7 +645,7 @@ static inline NSSize scaleProportionally(NSSize imageSize, NSSize canvasSize, BO
 
 	NSRect cellFrame = [self draggingRect];
 
-  NSBitmapImageRep *rep = [self.controlView bitmapImageRepForCachingDisplayInRect:cellFrame];
+  NSBitmapImageRep *rep = [[self controlView] bitmapImageRepForCachingDisplayInRect:cellFrame];
 
 	NSImage *image = [[[NSImage alloc] initWithSize:[rep size]] autorelease];
 	[image addRepresentation:rep];

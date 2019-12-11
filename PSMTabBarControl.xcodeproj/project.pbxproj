@@ -151,6 +151,7 @@
 		13F8B88907B434F6008AE28D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		13F8B88A07B434F6008AE28D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		4DCD68CE23A0C313001EC42A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4DCD68E123A0E743001EC42A /* PSMTabBarControl_private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PSMTabBarControl_private.h; path = Source/PSMTabBarControl_private.h; sourceTree = "<group>"; };
 		53DF68FD067E5B5A0090B5B0 /* PSMTabBarControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PSMTabBarControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		53DF68FE067E5B5A0090B5B0 /* PSMTabBarControl-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "PSMTabBarControl-Info.plist"; path = "Source/PSMTabBarControl-Info.plist"; sourceTree = "<group>"; };
 		5A5652F915D1E72F00F9EFD5 /* Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Base.xcconfig; sourceTree = "<group>"; };
@@ -432,6 +433,7 @@
 				8B39881C1184F40E004462EE /* PSMTabBarCell.h */,
 				8B39881D1184F40E004462EE /* PSMTabBarCell.m */,
 				8B39881E1184F40E004462EE /* PSMTabBarControl.h */,
+				4DCD68E123A0E743001EC42A /* PSMTabBarControl_private.h */,
 				8B39881F1184F40E004462EE /* PSMTabBarControl.m */,
 				8B3988201184F40E004462EE /* PSMTabBarController.h */,
 				8B3988211184F40E004462EE /* PSMTabBarController.m */,
