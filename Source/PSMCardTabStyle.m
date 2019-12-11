@@ -215,7 +215,8 @@
 
         if (gradient != nil) {
             [gradient drawInBezierPath:bezier angle:90.0f];
-            [gradient release], gradient = nil;
+            [gradient release];
+            gradient = nil;
             }
     } else {
         [[NSColor windowBackgroundColor] set];

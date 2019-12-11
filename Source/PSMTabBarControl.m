@@ -1600,7 +1600,8 @@ static NSMutableDictionary *registeredStyleClasses;
 						}
 					}
                     
-                    [tmpCellArray release], tmpCellArray = nil;
+                    [tmpCellArray release];
+                    tmpCellArray = nil;
                     
 					//Fix the close button for the clicked tab not to be pressed
 					[cell setCloseButtonPressed:NO];
@@ -2033,7 +2034,8 @@ static NSMutableDictionary *registeredStyleClasses;
 			[self removeTabForCell:cell];
 		}
 	}
-    [tmpCellArray release], tmpCellArray = nil;
+    [tmpCellArray release];
+    tmpCellArray = nil;
 
 	// go through tab view items, add cell for any not present
 	NSMutableArray *cellItems = [self representedTabViewItems];  

@@ -552,8 +552,10 @@ static inline NSSize scaleProportionally(NSSize imageSize, NSSize canvasSize, BO
     // We make the view the owner, and it delegates the calls back to the cell after it is properly setup for the corresponding row/column in the outlineview
     area = [[NSTrackingArea alloc] initWithRect:cellFrame options:options owner:controlView userInfo:enrichedUserInfo];
     [controlView addTrackingArea:area];
-    [area release], area = nil;
-    [enrichedUserInfo release], enrichedUserInfo = nil;
+    [area release];
+    area = nil;
+    [enrichedUserInfo release];
+    enrichedUserInfo = nil;
 
     // ---- add tracking area for close button ----
     
@@ -573,9 +575,11 @@ static inline NSSize scaleProportionally(NSSize imageSize, NSSize canvasSize, BO
         // We make the view the owner, and it delegates the calls back to the cell after it is properly setup for the corresponding row/column in the outlineview
         area = [[NSTrackingArea alloc] initWithRect:closeButtonRect options:options owner:controlView userInfo:enrichedUserInfo];
         [controlView addTrackingArea:area];
-        [area release], area = nil;
+        [area release];
+        area = nil;
 
-        [enrichedUserInfo release], enrichedUserInfo = nil;        
+        [enrichedUserInfo release];
+        enrichedUserInfo = nil;
     }
 }
 
