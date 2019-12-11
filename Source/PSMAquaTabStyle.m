@@ -31,24 +31,28 @@
 }
 
 - (void) loadImages {
+
 	// Aqua Tabs Images
+ 
 	aquaTabBg = [[NSImage alloc] initByReferencingFile:[[PSMTabBarControl bundle] pathForImageResource:@"AquaTabsBackground"]];
-	[aquaTabBg setFlipped:YES];
+  [aquaTabBg drawInRect:aquaTabBg.alignmentRect fromRect:NSZeroRect operation:NSCompositeSourceIn fraction:1.0 respectFlipped:YES hints:nil];
 
 	aquaTabBgDown = [[NSImage alloc] initByReferencingFile:[[PSMTabBarControl bundle] pathForImageResource:@"AquaTabsDown"]];
-	[aquaTabBgDown setFlipped:YES];
+  [aquaTabBgDown drawInRect:aquaTabBg.alignmentRect fromRect:NSZeroRect operation:NSCompositeSourceIn fraction:1.0 respectFlipped:YES hints:nil];
 
 	aquaTabBgDownGraphite = [[NSImage alloc] initByReferencingFile:[[PSMTabBarControl bundle] pathForImageResource:@"AquaTabsDownGraphite"]];
-	[aquaTabBgDown setFlipped:YES];
+  [aquaTabBgDownGraphite drawInRect:aquaTabBg.alignmentRect fromRect:NSZeroRect operation:NSCompositeSourceIn fraction:1.0 respectFlipped:YES hints:nil];
 
 	aquaTabBgDownNonKey = [[NSImage alloc] initByReferencingFile:[[PSMTabBarControl bundle] pathForImageResource:@"AquaTabsDownNonKey"]];
-	[aquaTabBgDown setFlipped:YES];
+  [aquaTabBgDownNonKey drawInRect:aquaTabBg.alignmentRect fromRect:NSZeroRect operation:NSCompositeSourceIn fraction:1.0 respectFlipped:YES hints:nil];
 
 	aquaDividerDown = [[NSImage alloc] initByReferencingFile:[[PSMTabBarControl bundle] pathForImageResource:@"AquaTabsSeparatorDown"]];
-	[aquaDivider setFlipped:NO];
+  [aquaDividerDown drawInRect:aquaTabBg.alignmentRect fromRect:NSZeroRect operation:NSCompositeSourceIn fraction:1.0 respectFlipped:YES hints:nil];
 
 	aquaDivider = [[NSImage alloc] initByReferencingFile:[[PSMTabBarControl bundle] pathForImageResource:@"AquaTabsSeparator"]];
-	[aquaDivider setFlipped:NO];
+  [aquaDivider drawInRect:aquaTabBg.alignmentRect fromRect:NSZeroRect operation:NSCompositeSourceIn fraction:1.0 respectFlipped:YES hints:nil];
+
+  [NSGraphicsContext restoreGraphicsState];
 
 	aquaCloseButton = [[NSImage alloc] initByReferencingFile:[[PSMTabBarControl bundle] pathForImageResource:@"AquaTabClose_Front"]];
 	aquaCloseButtonDown = [[NSImage alloc] initByReferencingFile:[[PSMTabBarControl bundle] pathForImageResource:@"AquaTabClose_Front_Pressed"]];
