@@ -85,14 +85,8 @@
 		8B3988B41184F668004462EE /* TabNewMetal.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B3987E41184F19D004462EE /* TabNewMetal.png */; };
 		8B3988B51184F668004462EE /* TabNewMetalPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B3987E51184F19D004462EE /* TabNewMetalPressed.png */; };
 		8B3988B61184F668004462EE /* TabNewMetalRollover.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B3987E61184F19D004462EE /* TabNewMetalRollover.png */; };
-		8B7C937811851AA200983F46 /* demo_main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7C937711851AA200983F46 /* demo_main.m */; };
 		8BD439621185149500DB4AC3 /* PSMTabBarControl.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 53DF68FD067E5B5A0090B5B0 /* PSMTabBarControl.framework */; };
 		8BD43965118514A600DB4AC3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD92D38A0106425D02CA0E72 /* Cocoa.framework */; };
-		8BD4397F1185154600DB4AC3 /* DemoWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD4397C1185154600DB4AC3 /* DemoWindowController.m */; };
-		8BD439801185154600DB4AC3 /* DemoFakeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD4397E1185154600DB4AC3 /* DemoFakeModel.m */; };
-		8BD439811185155300DB4AC3 /* PSMTabBarControlDemo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BD4396D118514D800DB4AC3 /* PSMTabBarControlDemo.xib */; };
-		8BD439821185155700DB4AC3 /* DemoAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD4396A118514BA00DB4AC3 /* DemoAppController.m */; };
-		8BD4399E118516A900DB4AC3 /* DemoWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BD4399D118516A900DB4AC3 /* DemoWindow.xib */; };
 		8BFD0B351185199800F69178 /* PSMTabBarControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53DF68FD067E5B5A0090B5B0 /* PSMTabBarControl.framework */; };
 		97FF179D11EB5938004FA751 /* PSMUnifiedTabStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 97FF177011EB5711004FA751 /* PSMUnifiedTabStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		97FF179E11EB5938004FA751 /* PSMUnifiedTabStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FF177111EB5711004FA751 /* PSMUnifiedTabStyle.m */; };
@@ -227,17 +221,7 @@
 		8B39882A1184F40E004462EE /* PSMTabStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSMTabStyle.h; path = Source/PSMTabStyle.h; sourceTree = "<group>"; };
 		8B39882B1184F40E004462EE /* PSMLiveChatTabStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSMLiveChatTabStyle.h; path = Source/PSMLiveChatTabStyle.h; sourceTree = "<group>"; };
 		8B39882C1184F40E004462EE /* PSMLiveChatTabStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSMLiveChatTabStyle.m; path = Source/PSMLiveChatTabStyle.m; sourceTree = "<group>"; };
-		8B7C937711851AA200983F46 /* demo_main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = demo_main.m; path = Source/demo_main.m; sourceTree = "<group>"; };
 		8BD4395A1185147D00DB4AC3 /* PSMTabBarControlDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PSMTabBarControlDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8BD4395C1185147D00DB4AC3 /* PSMTabBarControlDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "PSMTabBarControlDemo-Info.plist"; path = "Source/PSMTabBarControlDemo-Info.plist"; sourceTree = "<group>"; };
-		8BD43969118514BA00DB4AC3 /* DemoAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DemoAppController.h; path = Source/DemoAppController.h; sourceTree = "<group>"; };
-		8BD4396A118514BA00DB4AC3 /* DemoAppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DemoAppController.m; path = Source/DemoAppController.m; sourceTree = "<group>"; };
-		8BD4396D118514D800DB4AC3 /* PSMTabBarControlDemo.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PSMTabBarControlDemo.xib; path = Resources/PSMTabBarControlDemo.xib; sourceTree = "<group>"; };
-		8BD4397B1185154600DB4AC3 /* DemoWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DemoWindowController.h; path = Source/DemoWindowController.h; sourceTree = "<group>"; };
-		8BD4397C1185154600DB4AC3 /* DemoWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DemoWindowController.m; path = Source/DemoWindowController.m; sourceTree = "<group>"; };
-		8BD4397D1185154600DB4AC3 /* DemoFakeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DemoFakeModel.h; path = Source/DemoFakeModel.h; sourceTree = "<group>"; };
-		8BD4397E1185154600DB4AC3 /* DemoFakeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DemoFakeModel.m; path = Source/DemoFakeModel.m; sourceTree = "<group>"; };
-		8BD4399D118516A900DB4AC3 /* DemoWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = DemoWindow.xib; path = Resources/DemoWindow.xib; sourceTree = "<group>"; };
 		8D1AC97B0486D23100FE50C9 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = Resources/English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		97FF177011EB5711004FA751 /* PSMUnifiedTabStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSMUnifiedTabStyle.h; path = Source/PSMUnifiedTabStyle.h; sourceTree = "<group>"; };
 		97FF177111EB5711004FA751 /* PSMUnifiedTabStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSMUnifiedTabStyle.m; path = Source/PSMUnifiedTabStyle.m; sourceTree = "<group>"; };
@@ -283,7 +267,6 @@
 		0259C574FE90428111CA0C5A /* PSMTabBarControl */ = {
 			isa = PBXGroup;
 			children = (
-				8BD439551185146A00DB4AC3 /* Demo */,
 				54D33B2C06778E4400C9C163 /* Framework */,
 				5A5652F815D1E72F00F9EFD5 /* xcconfigs */,
 				1ED78706FE9D4A0611CA0C5A /* Products */,
@@ -433,23 +416,6 @@
 				0694F10C15F4EB90000FBC15 /* PSMCardTabStyle.m */,
 			);
 			name = Styles;
-			sourceTree = "<group>";
-		};
-		8BD439551185146A00DB4AC3 /* Demo */ = {
-			isa = PBXGroup;
-			children = (
-				8B7C937711851AA200983F46 /* demo_main.m */,
-				8BD4395C1185147D00DB4AC3 /* PSMTabBarControlDemo-Info.plist */,
-				8BD4396D118514D800DB4AC3 /* PSMTabBarControlDemo.xib */,
-				8BD4399D118516A900DB4AC3 /* DemoWindow.xib */,
-				8BD43969118514BA00DB4AC3 /* DemoAppController.h */,
-				8BD4396A118514BA00DB4AC3 /* DemoAppController.m */,
-				8BD4397B1185154600DB4AC3 /* DemoWindowController.h */,
-				8BD4397C1185154600DB4AC3 /* DemoWindowController.m */,
-				8BD4397D1185154600DB4AC3 /* DemoFakeModel.h */,
-				8BD4397E1185154600DB4AC3 /* DemoFakeModel.m */,
-			);
-			name = Demo;
 			sourceTree = "<group>";
 		};
 		C0894DA40C32F4C100401507 /* Classes */ = {
@@ -632,8 +598,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BD439811185155300DB4AC3 /* PSMTabBarControlDemo.xib in Resources */,
-				8BD4399E118516A900DB4AC3 /* DemoWindow.xib in Resources */,
 				069DFB2915EFBDF500FB9F1C /* largeImage.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -669,10 +633,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BD4397F1185154600DB4AC3 /* DemoWindowController.m in Sources */,
-				8BD439801185154600DB4AC3 /* DemoFakeModel.m in Sources */,
-				8BD439821185155700DB4AC3 /* DemoAppController.m in Sources */,
-				8B7C937811851AA200983F46 /* demo_main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -756,12 +716,18 @@
 		C056398C08A954F8003078D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMPILER_INDEX_STORE_ENABLE = NO;
+				COPY_PHASE_STRIP = NO;
+				VALID_ARCHS = x86_64;
 			};
 			name = Debug;
 		};
 		C056398D08A954F8003078D8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMPILER_INDEX_STORE_ENABLE = NO;
+				COPY_PHASE_STRIP = NO;
+				VALID_ARCHS = x86_64;
 			};
 			name = Release;
 		};

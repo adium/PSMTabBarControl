@@ -646,13 +646,11 @@ static inline NSSize scaleProportionally(NSSize imageSize, NSSize canvasSize, BO
 
 	NSRect cellFrame = [self draggingRect];
 
-    PSMTabBarControl *tabBarControl = [self controlView];
+  NSBitmapImageRep *rep = [self.controlView bitmapImageRepForCachingDisplayInRect:cellFrame];
 
-	[tabBarControl lockFocus];
-	NSBitmapImageRep *rep = [[[NSBitmapImageRep alloc] initWithFocusedViewRect:cellFrame] autorelease];
-	[tabBarControl unlockFocus];
 	NSImage *image = [[[NSImage alloc] initWithSize:[rep size]] autorelease];
 	[image addRepresentation:rep];
+
 	NSImage *returnImage = [[[NSImage alloc] initWithSize:[rep size]] autorelease];
 	[returnImage lockFocus];
     [image drawAtPoint:NSMakePoint(0.0, 0.0) fromRect:NSZeroRect operation:NSCompositeSourceOver fraction:1.0];
