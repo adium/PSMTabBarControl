@@ -1391,7 +1391,7 @@ static NSMutableDictionary *registeredStyleClasses;
     [self removeAllToolTips];
     
     // recreate tracking areas and tool tip rects
-    NSPoint mouseLocation = [self convertPoint:[[self window] convertScreenToBase:[NSEvent mouseLocation]] fromView:nil];
+    NSPoint mouseLocation = [self convertPoint:[[self window] convertPointFromScreen:[NSEvent mouseLocation]] fromView:nil];
     
     NSUInteger cellIndex = 0;
     for (PSMTabBarCell *aCell in _cells) {
